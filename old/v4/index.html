@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator Project</title>
+    <style>
+        #result {
+            width: 216px;
+        }
+        input {
+            width: 100px;
+            margin-bottom: 6px;
+            border-style: double;
+            border-color:hotpink;
+        }
+        #calculator {
+            text-align: center;
+
+        }
+        #title { 
+            text-align: center;
+            color:salmon;
+            font-family: cursive;
+
+        }
+        button {
+            border-style: double;
+            border-color:hotpink;
+            background-color: transparent;
+            color:rgb(99, 17, 44);
+        }
+        button:hover {
+            border-color:hotpink;
+            background-color: rgb(99, 17, 44);
+            color:white;
+            cursor: pointer; 
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Calculator Project</h1>
+    <div id="calculator">
+        <div id="display">
+            <input placeholder="x" type="number" id="input1"/>
+            <input placeholder="y" type="number" id="input2"/>
+            <br/>
+            <input placeholder="result" readonly id="result"/>
+        </div>
+        <div id="buttons">
+            <button id="sum" type="button"> + </button>
+            <button id="minus" type="button"> - </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
