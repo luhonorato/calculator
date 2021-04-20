@@ -54,6 +54,25 @@
         </div>
     </div>
 
+    <script>
+        var input1 = document.getElementById("input1");
+        var input2 = document.getElementById("input2");
+        var result = document.getElementById("result");
+
+        function sum() {
+            result.value = parseInt(input1.value) + parseInt(input2.value);
+        }
+
+        function minus() {
+            result.value = parseInt(input1.value) - parseInt(input2.value);
+        }
+
+        var sumBtn = document.getElementById("sum");
+        sumBtn.addEventListener("click", sum);
+
+        var minusBtn = document.getElementById("minus");
+        minusBtn.addEventListener("click", minus);
+    </script>
 
 </body>
 
